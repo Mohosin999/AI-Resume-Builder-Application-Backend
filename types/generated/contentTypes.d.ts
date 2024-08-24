@@ -368,6 +368,7 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     singularName: 'user-resume';
     pluralName: 'user-resumes';
     displayName: 'User Resume';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -377,6 +378,12 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     resumeId: Attribute.String;
     userEmail: Attribute.Email;
     userName: Attribute.String;
+    firstName: Attribute.String & Attribute.Required;
+    lastName: Attribute.String & Attribute.Required;
+    jobTitle: Attribute.String & Attribute.Required;
+    phone: Attribute.String;
+    email: Attribute.Email;
+    address: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
