@@ -384,6 +384,7 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     phone: Attribute.String;
     email: Attribute.Email;
     address: Attribute.String;
+    summery: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

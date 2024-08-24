@@ -45,6 +45,9 @@
     },
     "address": {
       "type": "string"
+    },
+    "summery": {
+      "type": "text"
     }
   }
 }
