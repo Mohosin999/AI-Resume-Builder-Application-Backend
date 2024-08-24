@@ -378,9 +378,9 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     resumeId: Attribute.String;
     userEmail: Attribute.Email;
     userName: Attribute.String;
-    firstName: Attribute.String & Attribute.Required;
-    lastName: Attribute.String & Attribute.Required;
-    jobTitle: Attribute.String & Attribute.Required;
+    firstName: Attribute.String;
+    lastName: Attribute.String;
+    jobTitle: Attribute.String;
     phone: Attribute.String;
     email: Attribute.Email;
     address: Attribute.String;
