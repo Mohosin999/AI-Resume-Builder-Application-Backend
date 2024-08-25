@@ -46,7 +46,7 @@
     "address": {
       "type": "string"
     },
-    "summery": {
+    "summary": {
       "type": "text"
     }
   }
