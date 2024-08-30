@@ -29,7 +29,7 @@
       "type": "boolean"
     },
     "workSummary": {
-      "type": "blocks"
+      "type": "richtext"
     }
   }
 }

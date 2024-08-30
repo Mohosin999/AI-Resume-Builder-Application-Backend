@@ -27,7 +27,7 @@ export interface ExperienceExperience extends Schema.Component {
     startDate: Attribute.String;
     endDate: Attribute.String;
     currentlyWorking: Attribute.Boolean;
-    workSummary: Attribute.Blocks;
+    workSummary: Attribute.RichText;
   };
 }
 
