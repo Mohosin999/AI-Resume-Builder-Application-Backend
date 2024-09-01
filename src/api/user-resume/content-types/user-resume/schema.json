@@ -66,6 +66,9 @@
     },
     "themeColor": {
       "type": "string"
+    },
+    "socialLink": {
+      "type": "string"
     }
   }
 }

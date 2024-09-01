@@ -389,6 +389,7 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     education: Attribute.Component<'education.education', true>;
     skills: Attribute.Component<'skills.skills', true>;
     themeColor: Attribute.String;
+    socialLink: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
