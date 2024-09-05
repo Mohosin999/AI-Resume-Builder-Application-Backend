@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_github_contribution_github_contributions",
+  "info": {
+    "displayName": "GithubContribution",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projectsName": {
+      "type": "string"
+    },
+    "workSummary": {
+      "type": "text"
+    }
+  }
+}

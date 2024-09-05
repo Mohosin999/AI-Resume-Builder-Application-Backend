@@ -390,6 +390,11 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
     skills: Attribute.Component<'skills.skills', true>;
     themeColor: Attribute.String;
     socialLink: Attribute.String;
+    projects: Attribute.Component<'projects.project', true>;
+    githubContribution: Attribute.Component<
+      'github-contribution.github-contribution',
+      true
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

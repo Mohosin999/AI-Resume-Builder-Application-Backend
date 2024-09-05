@@ -69,6 +69,16 @@
     },
     "socialLink": {
       "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.project"
+    },
+    "githubContribution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "github-contribution.github-contribution"
     }
   }
 }
