@@ -79,6 +79,11 @@
       "type": "component",
       "repeatable": true,
       "component": "github-contribution.github-contribution"
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "achievements.achievements"
     }
   }
 }

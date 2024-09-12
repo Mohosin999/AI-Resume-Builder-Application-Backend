@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_achievements_achievements",
+  "info": {
+    "displayName": "Achievements",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "achievementSummary": {
+      "type": "richtext"
+    }
+  }
+}

@@ -395,6 +395,7 @@ export interface ApiUserResumeUserResume extends Schema.CollectionType {
       'github-contribution.github-contribution',
       true
     >;
+    achievements: Attribute.Component<'achievements.achievements'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
