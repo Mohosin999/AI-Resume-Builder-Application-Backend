@@ -12,6 +12,32 @@ export interface SkillsSkills extends Schema.Component {
   };
 }
 
+export interface ProjectsProject extends Schema.Component {
+  collectionName: 'components_project_projects';
+  info: {
+    displayName: 'Projects';
+    icon: 'briefcase';
+    description: '';
+  };
+  attributes: {
+    projectsName: Attribute.String;
+    workSummary: Attribute.Text;
+  };
+}
+
+export interface GithubContributionGithubContribution extends Schema.Component {
+  collectionName: 'components_github_contribution_github_contributions';
+  info: {
+    displayName: 'GithubContribution';
+    icon: 'crown';
+    description: '';
+  };
+  attributes: {
+    projectsName: Attribute.String;
+    workSummary: Attribute.Text;
+  };
+}
+
 export interface ExperienceExperience extends Schema.Component {
   collectionName: 'components_experience_experiences';
   info: {
@@ -47,54 +73,14 @@ export interface EducationEducation extends Schema.Component {
   };
 }
 
-export interface AchievementsAchievements extends Schema.Component {
-  collectionName: 'components_achievements_achievements';
-  info: {
-    displayName: 'Achievements';
-    icon: 'command';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.String;
-    achievementSummary: Attribute.RichText;
-  };
-}
-
-export interface ProjectsProject extends Schema.Component {
-  collectionName: 'components_project_projects';
-  info: {
-    displayName: 'Projects';
-    icon: 'briefcase';
-    description: '';
-  };
-  attributes: {
-    projectsName: Attribute.String;
-    workSummary: Attribute.Text;
-  };
-}
-
-export interface GithubContributionGithubContribution extends Schema.Component {
-  collectionName: 'components_github_contribution_github_contributions';
-  info: {
-    displayName: 'GithubContribution';
-    icon: 'crown';
-    description: '';
-  };
-  attributes: {
-    projectsName: Attribute.String;
-    workSummary: Attribute.Text;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'skills.skills': SkillsSkills;
-      'experience.experience': ExperienceExperience;
-      'education.education': EducationEducation;
-      'achievements.achievements': AchievementsAchievements;
       'projects.project': ProjectsProject;
       'github-contribution.github-contribution': GithubContributionGithubContribution;
+      'experience.experience': ExperienceExperience;
+      'education.education': EducationEducation;
     }
   }
 }
