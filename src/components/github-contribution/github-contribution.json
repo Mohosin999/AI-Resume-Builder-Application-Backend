@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "projectsName": {
+    "repositoryName": {
       "type": "string"
     },
     "workSummary": {

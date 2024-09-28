@@ -33,7 +33,7 @@ export interface GithubContributionGithubContribution extends Schema.Component {
     description: '';
   };
   attributes: {
-    projectsName: Attribute.String;
+    repositoryName: Attribute.String;
     workSummary: Attribute.Text;
   };
 }
