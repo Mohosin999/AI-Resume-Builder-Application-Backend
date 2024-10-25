@@ -1,61 +1,49 @@
-# 🚀 Getting started with Strapi
+# Backend: AI-Powered Resume Builder Application
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## 🚀 Setup and Installation
 
-### `develop`
+Follow these steps to set up this application's backend on your local machine:
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+### `Clone the Repository:`
+
+```
+https://github.com/Mohosin999/AI-Resume-Builder-Application-Backend.git
+```
+
+### `Install Dependencies:`
+
+Install all dependencies by typing this in your terminal.
+
+```
+npm install
+```
+
+### `Configure Environment Variables:`
+
+Create a `.env` file in the root directory and set the following variables:
+
+```
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=9/S4kGVBj02aSlwsd9LOIA==,QfGRmKAmFxQUmLTsKwWguw==,tS/aG5YnqDDQul6Gx0LKHQ==,a4ACqFZ1bIZC32oBrlR/zw==
+API_TOKEN_SALT=Eq/4vF4wyUTdjNpMW5IZ1Q==
+ADMIN_JWT_SECRET=Ev4w7fd0wpSBHgIdlJb8LQ==
+TRANSFER_TOKEN_SALT=z8/rLh+SX5G6zEsq9vouhg==
+# Database
+DATABASE_CLIENT=postgres
+DATABASE_HOST= (enter your database host name)
+DATABASE_PORT=5432
+DATABASE_NAME= (enter your database name)
+DATABASE_USERNAME= (enter your database username)
+DATABASE_PASSWORD= (enter your database password)
+DATABASE_SSL=true
+JWT_SECRET=URUr68LDW6u4H273Rrs2BQ==
+```
+
+### `Start the Server:`
 
 ```
 npm run develop
-# or
-yarn develop
 ```
 
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+#### The End
